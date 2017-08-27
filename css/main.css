@@ -1,0 +1,294 @@
+* {
+	font-family: 'Lato', sans-serif;
+  /*changed the font to sans-serif*/
+  margin: 0;
+  /*moved eberything to the left, no margin*/
+  padding: 0;
+}
+
+hr {
+  border: 1px solid #c79852;
+  /*added three solid lines on the page with a new color according to the rule*/
+  margin: 3% auto;
+  /*added spacing within the border*/
+  width: 7%;
+  /*cut off most of the border lines, now only in the middle of the page about
+  1.5in wide*/
+}
+
+nav {
+  margin: 0 1%;
+  /*added margin, moved nav section slightly to the right*/
+  padding: 1% 5%;
+  /*adjusted nav section according to the new rule, added padding*/
+}
+
+nav > div {
+	display: inline-block;
+  /*aligned nav section*/
+}
+
+nav > div > a {
+  color: #464646;
+  /*changed the color of the nav section according to the new rule*/
+  font-size: 16px;
+  font-weight: bold;
+  /*font is not bold with and underline*/
+  text-decoration: none;
+  /*removed underline*/
+}
+
+nav > div:last-child {
+  float: right;
+  /*floated search section to the right*/
+}
+
+nav input {
+  border: none;
+  /*got rid or the border for the search section*/
+}
+
+section {
+  padding-bottom: 50px;
+  /*didn't notice any changes*/
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+  /*align the header text to the center*/
+  width: 80%;
+}
+
+header img {
+  border-radius: 50%;
+  height: 75px;
+  /*added seperation/spacing from text*/
+  width: 75px;
+  /*made img box square*/
+}
+
+header h1 {
+  color: #242424;
+  font-family: 'Lora', serif;
+  /*changed the text*/
+  font-size: 60px;
+  /*greatly increased the size of the font in header h1*/
+  letter-spacing: -1px;
+  /*adjusted the letter spacing to come together slightly*/
+  line-height: 60px;
+  /*brought the letters up more*/
+  margin: 1% 0;
+  /*adjusted the spacing*/
+}
+
+header h2 {
+  color: #5f5f5f;
+  /*changed the color of h2 header*/
+  font-size: 20px;
+  /*changed the font size*/
+  font-weight: normal;
+  /*made the font look thinner*/
+  margin: 5% 0 3%;
+  /*added spacing between h1 and h1 header*/
+}
+
+header p {
+  font-size: 16px;
+  margin: 3% 0;
+  /*added more spacing between the img, h1 and h2 header*/
+}
+
+section > div {
+  margin: 0 auto;
+  text-align: center;
+  /*centered section text*/
+  width: 80%;
+  /*added width, cleaned up cotent now is no longer running
+  from one end of the page to the other*/
+}
+
+section > div p {
+  color: #565656;
+  /*changed the ctext color*/
+  font-size: 16px;
+  line-height: 30px;
+  /*added space between the lines*/
+  padding: 0 15%;
+  /*added padding to bring the text in, now is longer on the
+  page rather than wider*/
+  margin: 3% 0;
+  /*added some spacing in the section*/
+  text-align: left;
+  /*brought the text to the left of the beginning of the margin*/
+}
+
+.personal-quote {
+  font-family: 'Petit Formal Script', cursive;
+/*changed the font of the personal-quote according to the new rule*/
+font-weight: 700;
+/*changed the font weight*/
+font-size: 24px;
+/*increaded the font size*/
+line-height: 36px;
+/*changed the line height for the quote*/
+margin: 0 auto;
+text-align: center;
+/*centered the text quote*/
+width: 60%;
+/*centerd the quote even more with the added margin rule*/
+}
+
+.img-wrap {
+  height: 450px;
+  /*added a lot of space on the page*/
+}
+
+.img-wrap img {
+  float: left;
+  /*floated image to the left*/
+}
+
+.img-wrap img:first-child {
+	margin-left: 9%;
+  /*moved img a little*/
+}
+
+.img-wrap img:nth-child(n+2) {
+	margin-left: 7px;
+  /*moved img a little*/
+}
+
+.img-wrap img:last-child {
+	margin-top: 7px;
+  /*brought img down some*/
+}
+
+/*FOOTER SECTION*/
+section > footer {
+  margin: 0 auto;
+  text-align: center;
+  /*centered footer*/
+  width: 60%;
+}
+
+section > footer > div {
+	color: #565656;
+  /*changed color of this section*/
+}
+
+footer textarea {
+  /*description box*/
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-color: #e5e5e5;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  color: #555;
+  font-size: 14px;
+  /*finally noticed a change, increased font size*/
+  line-height: 1.42857143;
+  /*height changed on box*/
+  padding: 6px 12px;
+  /*box got slightly bigger*/
+  width: 100%;
+  /*box got longer*/
+}
+
+.button-group {
+	text-align: left;
+  /*buttons group moved to the left aligned dicrectly under the
+  description box*/
+}
+
+.button-group button {
+	border: none;
+  /*shaded the color of group button to a dark grey, got rid of border*/
+  background: white;
+  /*changed the backgroud white*/
+  color: #565656;
+  font-size: 12px;
+  /*changed the font size*/
+  padding: 0 5px 0 0;
+  /*added some spacing between button*/
+}
+
+.button-group button:last-child{
+	float: right;
+	/*post comment floated to the right, aligned under box*/
+  padding: 0;
+}
+
+.button-group button:hover {
+	color: #5e5e5e;
+  cursor: pointer;
+	/*changed cursor to pointer*/
+  transition: 0.3s all ease-in-out;
+  /*idk*/
+}
+
+body > footer {
+  background: #F8F9FD;
+  /*added a background color*/
+  height: 200px;
+  /*added height to the footer*/
+  padding: 0 20%;
+	/*moved position of text in footer*/
+  position: relative;
+}
+
+.previous-article,
+.next-article {
+	display: inline-block;
+	/*adjusted footer links to inline block*/
+  position: relative;
+  width: 50%;
+  /*moved text*/
+}
+
+.previous-article {
+	left: 20%;
+	/*moved first row position*/
+  position: absolute;
+  /*for got this section, fixed alignment*/
+}
+
+.previous-button {
+	text-align: left;
+}
+
+.next-article {
+	position: absolute;
+	/*brought this section up, began to overlap*/
+  right: 20%;
+  /*everything in this section is overlaping*/
+}
+
+.next-button {
+	text-align: right;
+  /*moved the position of the next button to the right*/
+}
+
+.previous-button,
+.next-button {
+	margin: 10% 0;
+  /*moved links down some*/
+}
+
+.previous-button a,
+.next-button a {
+	color: #434345;
+	/*changed color of text*/
+  font-weight: bold;
+  /*made text bold*/
+  margin: 3% 0;
+	text-decoration: none;
+  /*removed underline*/
+}
+
+.previous-button p,
+.next-button p {
+	font-weight: normal;
+	margin: 3% 0;
+}
